@@ -60,7 +60,7 @@ function MapView() {
 
     try{
 
-        const response = await fetch("http://localhost:5000/route",{
+        const response = await fetch("https://college-campus-navigation-backend.onrender.com/route",{
 
             method:"POST",
 
